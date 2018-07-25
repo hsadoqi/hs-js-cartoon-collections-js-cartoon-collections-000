@@ -1,5 +1,4 @@
 function dwarfRollCall(dwarves) {
-  dwarves = ['Dopey', 'Grumpy', 'Bashful'];
   var y = [];
   for (let i = 0; i < dwarves.length; i++){
     y.push(`${(i+1)}. ${dwarves[i]} `)
@@ -18,7 +17,7 @@ function summonCaptainPlanet(planeteerCalls){
 function longPlaneteerCalls(words) {
   for(let i = 0; i < words.length; i++){
     if (words[i].length > 4){
-      return true;
+      return true
     }
   }
   return false;
