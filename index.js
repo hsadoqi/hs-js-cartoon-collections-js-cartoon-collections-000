@@ -28,7 +28,7 @@ function findTheCheese(foods){
   var z = ['cheddar', 'gouda', 'camembert'];
   for (let i = 0; i < foods.length; i++){
     if (z.includes(foods[i])){
-      return `${foods[i]}`
+      return foods[i]
     }
     }
     return 'no cheese!'
